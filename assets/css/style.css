@@ -1,0 +1,13 @@
+header {
+    background-color: #241e20;
+    color:#ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-around;
+}
