@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&display=swap');
 
+/* header styling */
 header {
     background-color: #241e20;
     color:#ffffff;
@@ -13,10 +14,6 @@ header {
     display: flex;
     flex-direction: row nowrap;
     justify-content: space-around;
-}
-
-#nav-menu:hover {
-
 }
 
 img {
