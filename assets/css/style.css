@@ -17,7 +17,7 @@ body {
 header {
     background-color: #241e20;
     height: 280px;
-    padding: 30px 10px;
+    padding: 50px 10px;
     border: 1px;
 }
 
@@ -59,12 +59,6 @@ body {
     margin: 0;
 }
 
-.vl {
-    border-left: 2px solid white;
-    height: 200px;
-    display: inline-block;
-    position: absolute;
-}
 
 /* biography */
 
