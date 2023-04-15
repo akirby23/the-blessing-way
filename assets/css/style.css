@@ -66,4 +66,10 @@ body {
 #bio-image {
     object-fit: cover;
     opacity: 0.7;
+    max-width: 100%;
+    height: auto;
+}
+
+.bio {
+    background-color: #76a38f;
 }
