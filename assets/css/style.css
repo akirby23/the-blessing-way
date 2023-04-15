@@ -12,13 +12,16 @@
 
 header {
     background-color: #241e20;
+    height: 280px;
+    padding: 30px 10px;
+}
+
+header > h1 {
     text-align: left;
     text-transform: uppercase;
     font-family: 'Noto Serif Devanagari', serif;
     color:#ffffff;
-    height: 280px;
     letter-spacing: 2px;
-    padding: 30px 10px;
 }
 
 #tbw-logo {
@@ -35,5 +38,11 @@ nav a {
 
 nav a:hover {
     color: #76a38f;
+    text-decoration: underline;
+    transition: all 0.5s ease 0s;
+}
+
+.active {
+    color: #8c6a4f;
     text-decoration: underline;
 }
