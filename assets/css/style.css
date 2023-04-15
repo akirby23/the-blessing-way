@@ -1,22 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&family=Open+Sans&display=swap');
 
 /* header styling */
-header {
-    background-color: #241e20;
-    color:#ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Noto Serif Devanagari', serif;
-}
 
 #nav-menu {
     list-style-type: none;
     display: flex;
     flex-direction: row nowrap;
-    justify-content: space-around;
+    justify-content: flex-end;
+    text-align: justify;
 }
 
-img {
-    width: 25%;
+header {
+    background-color: #241e20;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Noto Serif Devanagari', serif;
+    color:#ffffff;
+    height: 280px;
+    letter-spacing: 2px;
+    padding: 30px 10px;
+}
+
+#tbw-logo {
+    width: 20%;
     height: auto;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover {
+    color: #76a38f;
+    text-decoration: underline;
 }
