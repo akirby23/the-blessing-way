@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    color:#ffffff;
 }
 
 h1 {
@@ -26,10 +27,9 @@ header {
     border: 1px;
 }
 
-header > h1 {
+#logo-text {
     text-align: left;
     text-transform: uppercase;
-    color:#ffffff;
     letter-spacing: 10px;
     padding: 60px 10px 10px;
 }
@@ -45,20 +45,24 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color:#ffffff;
     font-size: 20px;
     padding: 30px;
+    color:#ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav a:hover {
     color: #76a38f;
     text-decoration: underline;
     transition: all 0.5s ease 0s;
+    letter-spacing: 2px;
 }
 
 nav a:active {
     color: #8c6a4f;
     text-decoration: underline;
+    letter-spacing: 2px;
 }
 
 body {
@@ -77,4 +81,22 @@ body {
 
 .bio {
     background-color: #8c6a4f;
+}
+
+#about {
+    width: 350px;
+    height: 290px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    background-color: rgba(60, 86, 72, 0.6);
+
+    position: absolute;
+
+    bottom:25px;
+    right: 250px;
+
+    padding: 10px 10px 10px 15px;
 }
