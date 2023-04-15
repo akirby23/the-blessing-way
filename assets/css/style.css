@@ -64,5 +64,6 @@ body {
 /* biography */
 
 #bio-image {
-    object-fit: fill;
+    object-fit: cover;
+    opacity: 0.7;
 }
