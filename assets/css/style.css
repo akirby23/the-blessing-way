@@ -60,3 +60,9 @@ body {
     top: 0;
     margin-left: -3px;
 }
+
+/* biography */
+
+#bio-image {
+    object-fit: fill;
+}
