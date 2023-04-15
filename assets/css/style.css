@@ -101,3 +101,23 @@ body {
 
     padding: 10px 10px 10px 15px;
 }
+
+/* tour dates & locations */
+
+#tour div {
+    padding-left: 30px;
+}
+
+#tour-heading {
+    text-align: center;
+    font-family: 'Noto Serif Devanagari', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+.tour-location {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
