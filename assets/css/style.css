@@ -2,6 +2,11 @@
 
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Serif Devanagari', serif;
 }
 
 /* header styling */
@@ -17,16 +22,16 @@ body {
 header {
     background-color: #241e20;
     height: 280px;
-    padding: 50px 10px;
+    padding: 30px 10px;
     border: 1px;
 }
 
 header > h1 {
     text-align: left;
     text-transform: uppercase;
-    font-family: 'Noto Serif Devanagari', serif;
     color:#ffffff;
-    letter-spacing: 2px;
+    letter-spacing: 10px;
+    padding: 60px 10px 10px;
 }
 
 #tbw-logo {
@@ -35,13 +40,14 @@ header > h1 {
     float: left;
 }
 
+nav {
+    padding: 10px;
+}
 nav a {
     text-decoration: none;
     color:#ffffff;
-    font-family: 'Open Sans', sans-serif;
-    border-radius: 8px;
-    padding: 15px;
     font-size: 20px;
+    padding: 30px;
 }
 
 nav a:hover {
