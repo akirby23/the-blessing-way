@@ -15,6 +15,10 @@ h1 {
     font-family: 'Noto Serif Devanagari', serif;
 }
 
+#page-container {
+    position: relative;
+}
+
 /* header styling */
 
 #nav-menu {
@@ -127,9 +131,8 @@ nav a:active {
 
 footer {
     background-color: #241e20;
-    bottom: 0;
-    width: 100vw;
     height: 10vh;
+    bottom: 0;
 }
 
 #social-links {
@@ -157,6 +160,7 @@ footer {
 
 /* discography */
 
+
 #discography-title {
     text-align: center;
     text-transform: uppercase;
@@ -166,11 +170,15 @@ footer {
 
 .album-cover {
     height: auto;
-    width: 30%;
-    position: static;
+    width: 400px;
+
+    float: left;
+    clear: both;
+
+    padding: 45px;
 }
 
-
 .album-description {
-    float: left;
+    float: right;
+    clear: both;
 }
