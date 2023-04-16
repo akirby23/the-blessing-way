@@ -164,6 +164,7 @@ footer {
 #discography-title {
     text-align: center;
     text-transform: uppercase;
+    text-decoration: underline 2px;
 
     font-size: 2em;
     letter-spacing: 7px;
@@ -174,7 +175,11 @@ footer {
 .discography-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    
+    padding: 50px;
+
+    background-color: rgba(36, 30, 32, 0.6)
 }
 
 .album-cover {
