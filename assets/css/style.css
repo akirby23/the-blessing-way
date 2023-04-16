@@ -141,5 +141,12 @@ footer {
     color: #c6e0c9;
 }
 
+#social-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: all 0.5s ease 0s;
+    letter-spacing: 2px;
+}
+
 
 
