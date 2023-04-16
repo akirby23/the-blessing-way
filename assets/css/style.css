@@ -112,7 +112,6 @@ nav a:active {
 
 #tour-heading {
     text-align: center;
-    font-family: 'Noto Serif Devanagari', serif;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 7px;
@@ -156,3 +155,20 @@ footer {
 }
 
 /* discography */
+
+#discography-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+#album-cover1 {
+    height: auto;
+    width: 30%;
+}
+
+#album-cover2 {
+    height: auto;
+    width: 30%;
+}
