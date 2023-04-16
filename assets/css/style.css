@@ -168,17 +168,26 @@ footer {
     letter-spacing: 7px;
 }
 
+.discography-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .album-cover {
+    float: right;
+}
+
+.album-cover img {
+    width: 500px;
     height: auto;
-    width: 400px;
-
-    float: left;
-    clear: both;
-
-    padding: 45px;
 }
 
 .album-description {
-    float: right;
-    clear: both;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#discography h2 {
+    text-transform: uppercase;
 }
