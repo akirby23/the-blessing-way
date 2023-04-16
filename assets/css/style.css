@@ -30,6 +30,7 @@ header {
     height: 280px;
     padding: 30px 10px;
     border: 1px;
+    width: 100%
 }
 
 #logo-text {
