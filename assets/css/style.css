@@ -189,6 +189,7 @@ footer {
 .album-cover img {
     width: 500px;
     height: auto;
+    border-radius: 8px;
 }
 
 .album-description {
