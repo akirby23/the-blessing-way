@@ -164,12 +164,13 @@ footer {
     letter-spacing: 7px;
 }
 
-#album-cover1 {
+.album-cover {
     height: auto;
     width: 30%;
+    position: static;
 }
 
-#album-cover2 {
-    height: auto;
-    width: 30%;
+
+.album-description {
+    float: left;
 }
