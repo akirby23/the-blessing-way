@@ -84,6 +84,7 @@ nav a:active {
     background-color: #8c6a4f;
     height: 800px;
     width: 100%;
+    position: relative;
 }
 
 #bio-bg {
@@ -94,23 +95,20 @@ nav a:active {
     background-size: cover;
 }
 
-
 .about {
-    width: 350px;
-    height: 290px;
+    width: 500px;
+    height: 300px;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
 
     background-color: rgba(60, 86, 72, 0.6);
 
     position: absolute;
-
-    bottom: 25px;
-    right: 250px;
-
-    padding: 10px 10px 10px 15px;
+    
+    top: 50px;
+    left: 170px;
+    padding: 20px 20px 0px 20px;
 }
 
 /* tour dates & locations */
@@ -180,7 +178,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: left;
-    
+
     padding: 50px;
 
     background-color: rgba(36, 30, 32, 0.6)
