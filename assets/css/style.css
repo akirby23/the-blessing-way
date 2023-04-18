@@ -80,18 +80,22 @@ nav a:active {
 
 /* biography */
 
-#bio-image {
-    object-fit: cover;
-    opacity: 0.7;
-    max-width: 100%;
-    height: auto;
-}
-
-.bio {
+#bio {
     background-color: #8c6a4f;
+    height: 800px;
+    width: 100%;
 }
 
-#about {
+#bio-bg {
+    height: 800px;
+    width: 100%;
+
+    background-image: url('/assets/images/bio-image.jpg');
+    background-size: cover;
+}
+
+
+.about {
     width: 350px;
     height: 290px;
 
