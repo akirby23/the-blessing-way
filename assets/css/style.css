@@ -130,6 +130,14 @@ nav a:active {
     letter-spacing: 5px;
 }
 
+/* tour map iframes */
+
+.map {
+    width: 40%;
+    height: 450px;
+    border: 0;
+}
+
 /* footer */
 
 footer {
@@ -203,3 +211,4 @@ footer {
 #discography h2 {
     text-transform: uppercase;
 }
+
