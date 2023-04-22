@@ -11,7 +11,7 @@ body {
     background-color: #76a38f;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Noto Serif Devanagari', serif;
 }
 
@@ -138,39 +138,7 @@ nav a:active {
     border: 0;
 }
 
-/* footer */
-
-footer {
-    background-color: #241e20;
-    height: 10vh;
-    bottom: 0;
-}
-
-#social-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-
-    padding: 20px 10px 10px 10px;
-}
-
-#social-links a {
-    text-decoration: none;
-    color: #c6e0c9;
-
-    font-size: 28px;
-}
-
-#social-links a:hover {
-    color: #8c6a4f;
-    text-decoration: underline;
-    transition: all 0.5s ease 0s;
-    letter-spacing: 2px;
-}
-
 /* discography */
-
 
 #discography-title {
     text-align: center;
@@ -212,3 +180,55 @@ footer {
     text-transform: uppercase;
 }
 
+/* newsletter sign up page */
+
+.form-container {
+    width: 700px;
+    clear: both;
+    margin: auto;
+    display: table;
+
+    background-color:  rgba(36, 30, 32, 0.6);
+    padding: 30px 10px 30px 10px;
+}
+
+.form-container input {
+    width: 100%;
+    clear: both;
+}
+
+#form-button {
+
+}
+
+/* footer */
+
+footer {
+    background-color: #241e20;
+    height: 10vh;
+    bottom: 0;
+    width: 100%;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 20px 10px 10px 10px;
+}
+
+#social-links a {
+    text-decoration: none;
+    color: #c6e0c9;
+
+    font-size: 28px;
+}
+
+#social-links a:hover {
+    color: #8c6a4f;
+    text-decoration: underline;
+    transition: all 0.5s ease 0s;
+    letter-spacing: 2px;
+}
