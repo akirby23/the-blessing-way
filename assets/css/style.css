@@ -11,7 +11,8 @@ body {
     background-color: #76a38f;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Noto Serif Devanagari', serif;
 }
 
@@ -188,8 +189,13 @@ nav a:active {
     margin: auto;
     display: table;
 
-    background-color:  rgba(36, 30, 32, 0.6);
+    background-color: rgba(36, 30, 32, 0.6);
     padding: 30px 10px 30px 10px;
+}
+
+.form-container h2,
+.form-container p {
+    text-align: center;
 }
 
 .form-container input {
@@ -208,7 +214,7 @@ nav a:active {
 }
 
 #form-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.5s ease 0s;
 }
 
