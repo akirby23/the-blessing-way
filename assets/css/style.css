@@ -163,12 +163,11 @@ nav a:active {
 }
 
 .discography-container {
+    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: left;
-
     padding: 50px;
-
     background-color: rgba(36, 30, 32, 0.6)
 }
 
