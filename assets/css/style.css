@@ -66,14 +66,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #76a38f;
+    color: #8c6a4f;
     text-decoration: underline;
     transition: all 0.5s ease 0s;
     letter-spacing: 2px;
 }
 
 nav a:active {
-    color: #8c6a4f;
+    color: #76a38f;
     text-decoration: underline;
     letter-spacing: 2px;
 }
@@ -230,25 +230,21 @@ nav a:active {
 
 footer {
     background-color: #241e20;
-    height: 10vh;
-    bottom: 0;
     width: 100%;
 }
 
 #social-links {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-
-    padding: 20px 10px 10px 10px;
+    justify-content: center;
 }
 
 #social-links a {
     text-decoration: none;
-    color: #c6e0c9;
+    color: #ffffff;
 
     font-size: 28px;
+    padding: 13px;
 }
 
 #social-links a:hover {
@@ -256,4 +252,8 @@ footer {
     text-decoration: underline;
     transition: all 0.5s ease 0s;
     letter-spacing: 2px;
+}
+
+footer p {
+    text-align: center;
 }
