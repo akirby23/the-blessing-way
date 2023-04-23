@@ -99,7 +99,6 @@ nav a:active {
 
 .about {
     width: 500px;
-    height: 300px;
 
     font-size: 20px;
     letter-spacing: 2px;
@@ -109,15 +108,16 @@ nav a:active {
 
     position: absolute;
 
-    top: 50px;
-    left: 170px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px;
+    bottom: 350px;
+    right: 180px;
+
 }
 
 /* new album section */
 
 #new-album {
-background-color: #241e20;
+    background-color: #241e20;
 }
 
 #new-album img {
@@ -137,7 +137,8 @@ background-color: #241e20;
     padding-left: 20px;
 }
 
-#new-album-text h2, h3 {
+#new-album-text h2,
+h3 {
     text-transform: uppercase;
     font-size: 200%;
     font-family: 'Open Sans', sans-serif;
@@ -259,7 +260,7 @@ background-color: #241e20;
 
 #thank-you-page {
     margin-top: 30px;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 /* footer */
