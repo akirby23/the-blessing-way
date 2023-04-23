@@ -85,16 +85,15 @@ nav a:active {
 
 #bio {
     background-color: #8c6a4f;
-    height: 800px;
     width: 100%;
     position: relative;
 }
 
 #bio-bg {
-    height: 800px;
+    height: 700px;
     width: 100%;
 
-    background-image: url('../images/bio-image.jpg');
+    background-image: url('../images/bio-bg.webp');
     background-size: cover;
 }
 
