@@ -123,7 +123,8 @@ background-color: #241e20;
 #new-album img {
     width: 500px;
     height: auto;
-    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 /* tour dates & locations */
 
