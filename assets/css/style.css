@@ -118,6 +118,7 @@ nav a:active {
 
 #tour div {
     padding-left: 30px;
+    height: 700px;
 }
 
 #tour-heading {
@@ -130,6 +131,14 @@ nav a:active {
 .tour-location {
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+.tour-right {
+    float: right;
+}
+
+.tour-left {
+    float: left;
 }
 
 /* tour map iframes */
