@@ -164,6 +164,12 @@ h3 {
     letter-spacing: 5px;
 }
 
+.tour-details {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
 .tour-right {
     float: right;
 }
@@ -194,8 +200,8 @@ h3 {
 .discography-container {
     margin: 20px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: left;
     padding: 50px;
     background-color: rgba(36, 30, 32, 0.6)
 }
@@ -304,3 +310,6 @@ footer p {
     text-align: center;
     margin: 0;
 }
+
+/* Media queries */
+
