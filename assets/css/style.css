@@ -239,6 +239,9 @@ nav a:active {
 footer {
     background-color: #241e20;
     width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 #social-links {
@@ -264,4 +267,5 @@ footer {
 
 footer p {
     text-align: center;
+    margin: 0;
 }
