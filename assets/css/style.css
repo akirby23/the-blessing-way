@@ -215,6 +215,12 @@ h3 {
     padding-left: 20px;
 }
 
+.album-description iframe {
+    border: 0; 
+    width: 100%; 
+    height: 120px;
+}
+
 #discography h2 {
     text-transform: uppercase;
 }
