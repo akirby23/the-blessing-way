@@ -124,20 +124,29 @@ nav a:active {
 }
 
 #new-album img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     padding-left: 30px;
     padding-top: 20px;
+    padding-right: 20px;
 }
 
 #new-album-container {
     display: flex;
     align-items: center;
-    justify-content: center
 }
 
 #new-album-text {
+    display: flex;
+    flex-direction: column;
     padding-left: 20px;
+    font-size: 175%
+
+}
+
+#new-album-text h2 {
+    color: #76a38f;
 }
 
 #new-album-text h2,
@@ -146,6 +155,7 @@ h3 {
     font-size: 200%;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
+    margin: 0;
 }
 
 /* tour dates & locations */
