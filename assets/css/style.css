@@ -24,32 +24,36 @@ h2 {
 
 /* header styling */
 
-#nav-menu {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
 header {
     background-color: #241e20;
-    height: 280px;
-    padding: 30px 10px;
-    border: 1px;
+    height: auto;
+    padding: 10px;
     width: 100%
 }
+
+/* header logo */
 
 #logo-text {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 10px;
     padding: 60px 10px 10px;
+    font-size: 2vw;
 }
 
 #tbw-logo {
     width: 20%;
     height: auto;
     float: left;
+}
+
+/* navigation bar */
+
+#nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 nav {
@@ -79,8 +83,6 @@ nav a:active {
     letter-spacing: 2px;
 }
 
-
-
 /* biography */
 
 #bio {
@@ -109,8 +111,9 @@ nav a:active {
     position: absolute;
 
     padding: 20px;
-    bottom: 350px;
-    right: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
