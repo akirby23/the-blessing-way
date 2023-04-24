@@ -25,6 +25,8 @@ h2 {
 /* header styling */
 
 header {
+    display: flex;
+    flex-direction: row;
     background-color: #241e20;
     height: auto;
     padding: 10px;
@@ -33,16 +35,19 @@ header {
 
 /* header logo */
 
-#logo-text {
-    text-align: left;
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 20%;
+    min-width: 175px;
+    height: auto;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    padding: 60px 10px 10px;
-    font-size: 2vw;
+    font-size: 1.4vw;
 }
 
 #tbw-logo {
-    width: 20%;
+    width: 100%;
     height: auto;
     float: left;
 }
@@ -52,7 +57,7 @@ header {
 #nav-menu {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: flex-end;
 }
 
@@ -64,7 +69,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     font-family: 'Noto Serif Devanagari', serif;
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -72,14 +77,13 @@ nav a {
 
 nav a:hover {
     color: #8c6a4f;
-    text-decoration: underline;
     transition: all 0.5s ease 0s;
+    border-bottom: 1px solid;
 }
 
 nav a:active {
     color: #76a38f;
     text-decoration: underline;
-    letter-spacing: 2px;
 }
 
 /* biography */
@@ -141,7 +145,6 @@ nav a:active {
     flex-direction: column;
     padding-left: 20px;
     font-size: 175%
-
 }
 
 #new-album-text h2 {
