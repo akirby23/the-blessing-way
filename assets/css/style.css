@@ -44,6 +44,7 @@ header {
     height: auto;
     text-transform: uppercase;
     font-size: 1.4vw;
+    letter-spacing: 2px;
 }
 
 #tbw-logo {
@@ -68,7 +69,6 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Noto Serif Devanagari', serif;
     padding: 20px;
     color: #ffffff;
     text-transform: uppercase;
@@ -343,6 +343,11 @@ footer p {
         align-items: center;
     }
 
+    .about {
+        width: 450px;
+        font-size: 17px;
+    }
+
     .discography-container {
         flex-direction: column;
         text-align: center;
@@ -358,6 +363,12 @@ footer p {
     nav a {
         font-size: 20px;
         padding: 11px;
+    }
+
+    .about {
+        width: 450px;
+        font-size: 17px;
+        padding: 17px;
     }
 
     #new-album-text {
@@ -388,6 +399,12 @@ footer p {
     nav a {
         font-size: 15px;
         padding: 7px;
+    }
+
+    .about {
+        width: 400px;
+        font-size: 15px;
+        padding: 15px;
     }
 
     #new-album-container {
