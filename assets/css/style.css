@@ -99,6 +99,7 @@ nav a:active {
 
     background-image: url('../images/bio-bg.webp');
     background-size: cover;
+    background-position: center;
 }
 
 .about {
@@ -224,12 +225,10 @@ h3 {
     background-color: rgba(36, 30, 32, 0.6)
 }
 
-.album-cover {
-    float: right;
-}
 
-.album-cover img {
-    width: 500px;
+.album-cover {
+    width: auto;
+    max-width: 500px;
     height: auto;
     border-radius: 8px;
 }
@@ -346,24 +345,20 @@ footer p {
 
     .discography-container {
         flex-direction: column;
+        text-align: center;
     }
 }
 
 /* For medium screens (775px and below) */
 @media screen and (max-width: 775px) {
     .nav-icon {
-        display: none!important;
+        display: none !important;
     }
 
     nav a {
-        text-decoration: none;
         font-size: 20px;
-        font-family: 'Noto Serif Devanagari', serif;
         padding: 11px;
-        color: #ffffff;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }   
+    }
 
     #new-album-text {
         display: flex;
@@ -382,25 +377,32 @@ footer p {
         text-align: center;
     }
 
+    #discography-title {
+        font-size: 1.5em;
+    }
+
 }
 
 /* For extra small screens (600px and below) */
 @media screen and (max-width: 600px) {
     nav a {
-        text-decoration: none;
         font-size: 15px;
-        font-family: 'Noto Serif Devanagari', serif;
         padding: 7px;
-        color: #ffffff;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }   
+    }
 
     #new-album-container {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #discography-title {
+        font-size: 1.5em;
+    }
+
+    .album-cover {
+        max-width: 350px;
     }
 
 }
