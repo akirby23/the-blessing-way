@@ -31,7 +31,6 @@ header {
     align-items: center;
     background-color: #241e20;
     height: auto;
-    padding: 10px;
 }
 
 /* header logo */
@@ -107,6 +106,7 @@ nav a:active {
 
     font-size: 20px;
     letter-spacing: 2px;
+    text-align: center;
 
     background-color: rgba(60, 86, 72, 0.6);
     border-radius: 8px;
@@ -128,7 +128,7 @@ nav a:active {
 
 #new-album img {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
     padding-left: 30px;
     padding-top: 20px;
@@ -143,7 +143,7 @@ nav a:active {
 #new-album-text {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 50px;
     font-size: 175%
 }
 
@@ -169,7 +169,7 @@ h3 {
 #tour-heading {
     text-align: center;
     text-transform: uppercase;
-    font-size: em;
+    font-size: 2em;
     letter-spacing: 7px;
     margin-bottom: 40px;
 }
@@ -352,6 +352,55 @@ footer p {
 /* For medium screens (775px and below) */
 @media screen and (max-width: 775px) {
     .nav-icon {
-        display: none;
+        display: none!important;
     }
+
+    nav a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Noto Serif Devanagari', serif;
+        padding: 11px;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }   
+
+    #new-album-text {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        width: 100%;
+        max-width: fit-content;
+        height: auto;
+    }
+
+    .tour-details {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+/* For extra small screens (600px and below) */
+@media screen and (max-width: 600px) {
+    nav a {
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Noto Serif Devanagari', serif;
+        padding: 7px;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }   
+
+    #new-album-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
