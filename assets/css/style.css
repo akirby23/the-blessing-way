@@ -281,7 +281,7 @@ fieldset {
 }
 
 #form-button {
-    width: 15%;
+    width: auto;
     padding: 0.5em;
     margin-top: 10px;
     color: white;
