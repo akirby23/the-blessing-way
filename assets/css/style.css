@@ -145,7 +145,7 @@ nav a:active {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
-    font-size: 175%
+    font-size: 2em;
 }
 
 #new-album-text h2 {
@@ -155,10 +155,14 @@ nav a:active {
 #new-album-text h2,
 h3 {
     text-transform: uppercase;
-    font-size: 200%;
+    font-size: 2em;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
     margin: 0;
+}
+
+#new-album-text p {
+    font-size: 1.25em;
 }
 
 /* tour dates & locations */
@@ -349,6 +353,15 @@ footer p {
         font-size: 17px;
     }
 
+    #new-album-text h2,
+h3 {
+    font-size: 1.75em;
+}
+
+#new-album-text p {
+    font-size: 1em;
+}
+
     .discography-container {
         flex-direction: column;
         text-align: center;
@@ -375,10 +388,19 @@ footer p {
     #new-album-text {
         display: flex;
         flex-direction: column;
-        padding-left: 50px;
+        flex-wrap: wrap;
         width: 100%;
         max-width: fit-content;
         height: auto;
+    }
+
+    #new-album-text h2,
+    h3 {
+        font-size: 1.5em;
+    }
+    
+    #new-album-text p {
+        font-size: 0.75em;
     }
 
     .tour-details {
@@ -395,7 +417,7 @@ footer p {
 
 }
 
-/* For extra small screens (600px and below) */
+/* For small screens (600px and below) */
 @media screen and (max-width: 600px) {
     nav a {
         font-size: 15px;
@@ -413,6 +435,15 @@ footer p {
         align-items: center;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #new-album-text h2,
+    h3 {
+        font-size: 1.25em;
+    }
+    
+    #new-album-text p {
+        font-size: 0.5em;
     }
 
     #discography-title {
