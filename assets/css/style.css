@@ -167,10 +167,6 @@ h3 {
 
 /* tour dates & locations */
 
-#tour div {
-    padding-left: 20px;
-}
-
 #tour-heading {
     text-align: center;
     text-transform: uppercase;
@@ -189,6 +185,7 @@ h3 {
     display: flex;
     flex-direction: row;
     height: auto;
+    padding-left: 20px;
 }
 
 .tour-right {
@@ -199,6 +196,10 @@ h3 {
 .tour-left {
     float: left;
     width: 35%;
+}
+
+.dublin {
+    padding-bottom: 100px;
 }
 
 /* tour map iframes */
@@ -246,6 +247,10 @@ h3 {
     border: 0;
     width: 100%;
     height: 120px;
+}
+
+#discography {
+    padding-bottom: 100px;
 }
 
 #discography h2 {
