@@ -1,108 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![The Blessing Way Logo](assets/images/the-blessing-way-logo.jpg) #The Blessing Way
 
-Welcome USER_NAME,
+##Description
+This website is aimed at showcasing & promoting the music of the Irish solo-project The Blessing Way. 
+Targetted towards heavy metal music fans as well as new & existing fans of the project, the website provides a brief overview on the history of The Blessing Way, an introduction to their discography, information on the upcoming tour and where their music can be streamed.
+Users will find this useful to keep up to date with the latest album releases & tour dates. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+##Feautures
+###Header
+-The header contains The Blessing Way’s logo, which decorates each page nicely in line with the theme of the website while also allowing the user to easily navigate back to the home page by clicking on it. 
+-It also contains a responsive navigation bar which features on all 4 pages, allowing the user to easily navigate between pages without the need to use the “back” button to go back to the previous page. 
+-On larger screens, each of the navigation links contains a corresponding icon which contributes to the intuitive design while also making the header more aesthetically pleasing. 
 
-## Gitpod Reminders
+###Biography section
+-The biography section contains an eye-catching text box that will give the user a brief introduction to The Blessing Way, complimented by a black, white & grey background image of a live concert to match the theme of heavy metal music. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+###New album section 
+-The New Album section promotes the release of The Blessing Way’s newest album, Erik’s Lament. 
+-This section informs the user that the album is now available to stream on Bandcamp, Spotify and YouTube. 
+-The accompanying image features the album cover of Erik’s Lament on a mobile device to entice the user to stream the album. 
 
-`python3 -m http.server`
+###Tour Section
+-This section advertises the upcoming Ireland Tour and contains a list of tour locations, the date & time of the events and the address of the venues. 
+-The locations of each of the events are pinpointed on a corresponding map iframe to allow the user to easily plan their trip and/or navigate to the venue. 
 
-A blue button should appear to click: _Make Public_,
+###Discography page 
+-The Discography pages provides the user with an overview of all of the albums that have been released by The Blessing Way to date. 
+-The album covers are displayed on the page accompanied by the title of the album, the release date and a description of the album. 
+-The iframes sourced from Bandcamp allow the user to listen to the album directly on the website, or navigate to the Bandcamp website to buy or share the album by clicking on the links within the media player. 
+-For a better user experience, the iframes will not autoplay. 
+-In the interest of maintaining responsiveness on smaller screens, the iframes are not visible on screens 450px wide and below. 
 
-Another blue button should appear to click: _Open Browser_.
+###Sign up page
+-The sign up page contains a form that will allow the user to sign up for The Blessing Way’s Newsletter. 
+-The user is just required to fill in their First Name, Last Name & Email Address, making it quick & easy for them to get signed up. 
+-Placeholder text has been placed within the input fields for a more intuitive design. 
+-The input type for the email input box has been set to “email” to prevent the user from inputting invalid data. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+###Thank you page
+-Upon submission of the form on the sign up page, the user is taken to the Thank You page which thanks the user for signing up to the newsletter, informs them that they have been successful in signing up & that they will be redirected back to the home page.
+-This page is set up to auto-refresh after 10 seconds and redirect the user back to the home page, which prevents the need for the user to press the “back” button to exit it.
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+###Footer
+-The footer contains Facebook, Bandcamp, Spotify & YouTube icons which are linked to The Blessing Way’s corresponding pages. Clicking on the icon will open the respective link in a new tab for better user experience.
+-Below the social media links is a disclaimer which lets the user know that the website has been created for educational purposes only.  
