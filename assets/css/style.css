@@ -469,6 +469,7 @@ footer p {
         width: 400px;
         font-size: 15px;
         padding: 15px;
+        top: 35%;
     }
 
     #new-album-container {
@@ -528,7 +529,6 @@ footer p {
         width: 280px;
         font-size: 11px;
         padding: 9px;
-        top: 35%;
     }
 
     #new-album img {
