@@ -352,14 +352,15 @@ footer p {
     }
 }
 
-
 /* For larger to medium screens, 1000px & below */
 @media screen and (max-width: 1000px) {
 
     header {
-        display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+    }
+
+    #nav-menu {
         justify-content: center;
     }
 
@@ -518,7 +519,7 @@ footer p {
 
     nav a {
         font-size: 11px;
-        padding: 8px;
+        padding: 5px;
     }
 
     #bio-bg {
