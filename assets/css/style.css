@@ -57,10 +57,6 @@ header {
     justify-content: flex-end;
 }
 
-nav {
-    padding: 10px;
-}
-
 nav a {
     text-decoration: none;
     font-size: 18px;
@@ -206,13 +202,20 @@ h3 {
 
 /* discography */
 
+
+#discography {
+    padding-bottom: 100px;
+}
+
+#discography h2 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
 #discography-title {
     text-align: center;
-    text-transform: uppercase;
-
     font-size: 2em;
     letter-spacing: 7px;
-
     padding: 30px;
 }
 
@@ -244,13 +247,6 @@ h3 {
     height: 120px;
 }
 
-#discography {
-    padding-bottom: 100px;
-}
-
-#discography h2 {
-    text-transform: uppercase;
-}
 
 /* newsletter sign up page */
 
@@ -385,6 +381,11 @@ footer p {
     .discography-container {
         flex-direction: column;
         text-align: center;
+        padding: 20px;
+    }
+
+    .album-description {
+        padding: 20px;
     }
 }
 
@@ -492,4 +493,54 @@ footer p {
         padding: 11px;
     }
 
+}
+
+/* For extra small screens (450px and below) */
+@media screen and (max-width: 450px) {
+    #logo {
+        font-size: 11px;
+    }
+
+    nav a {
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    #bio-bg {
+        height: 500px;
+    }
+
+    .about {
+        width: 280px;
+        font-size: 11px;
+        padding: 9px;
+        top: 35%;
+    }
+
+    #new-album img {
+        max-width: 200px;
+    }
+
+    #new-album-text h2,
+    h3 {
+        font-size: 1em;
+    }
+
+    #discography-title {
+        padding: 20px;
+        font-size: 1.25em;
+    }
+
+    .album-cover {
+        max-width: 250px;
+    }
+
+    .album-description iframe {
+        display: none;
+    }
+
+    .form-container {
+        width: 300px;
+        height: 300px;
+    }
 }
