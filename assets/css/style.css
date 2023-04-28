@@ -332,6 +332,8 @@ footer {
 footer p {
     text-align: center;
     margin: 0;
+    font-size: 0.75rem;
+    padding: 5px;
 }
 
 /* Media queries */
