@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    background-color: #76a38f;
+    background-color: #3C5648;
 }
 
 h1,
@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 nav a:active {
-    color: #76a38f;
+    color: #3C5648;
 }
 
 /* biography */
@@ -280,7 +280,7 @@ fieldset {
     padding: 0.5em;
     margin-top: 10px;
     color: white;
-    background-color: #76a38f;
+    background-color: #3C5648;
     border: 1px solid;
     border-radius: 5px;
 }
