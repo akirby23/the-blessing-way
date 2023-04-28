@@ -134,6 +134,7 @@ nav a:active {
 #new-album-container {
     display: flex;
     align-items: center;
+    padding-top: 50px;
 }
 
 #new-album-text {
