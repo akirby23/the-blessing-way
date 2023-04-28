@@ -17,11 +17,6 @@ h2 {
     font-family: 'Noto Serif Devanagari', serif;
 }
 
-#page-container {
-    position: relative;
-}
-
-
 /* header styling */
 
 header {
@@ -43,7 +38,7 @@ header {
     min-width: 175px;
     height: auto;
     text-transform: uppercase;
-    font-size: 1.4vw;
+    font-size: 18px;
     letter-spacing: 2px;
 }
 
@@ -68,7 +63,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     color: #ffffff;
     text-transform: uppercase;
@@ -189,12 +184,10 @@ h3 {
 }
 
 .tour-right {
-    float: right;
     width: 45%;
 }
 
 .tour-left {
-    float: left;
     width: 35%;
 }
 
@@ -343,6 +336,21 @@ footer p {
 }
 
 /* Media queries */
+
+/* For large screens 1200 and below */
+
+@media screen and (max-width: 1200px) {
+#logo {
+    font-size: 16px;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 18px;
+}
+}
+
+
 /* For larger to medium screens, 1000px & below */
 @media screen and (max-width: 1000px) {
 
@@ -351,6 +359,10 @@ footer p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    #logo {
+        font-size: 14px;
     }
 
     .about {
@@ -424,6 +436,10 @@ h3 {
 
 /* For small screens (600px and below) */
 @media screen and (max-width: 600px) {
+    #logo {
+        font-size: 13px;
+    }
+    
     nav a {
         font-size: 15px;
         padding: 7px;
