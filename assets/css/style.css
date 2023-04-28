@@ -434,9 +434,7 @@ footer p {
     }
 
     .tour-details {
-        display: flex;
         flex-direction: column;
-        height: auto;
         align-items: center;
         text-align: center;
         padding-left: 0;
@@ -474,8 +472,6 @@ footer p {
     }
 
     #new-album-container {
-        display: flex;
-        align-items: center;
         flex-direction: column;
         justify-content: center;
     }
