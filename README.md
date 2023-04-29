@@ -97,9 +97,9 @@ Users will find this useful to keep up to date with the latest album releases & 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): for testing responsiveness on various screen sizes & for troubleshooting issues. 
 - [Google Fonts](https://fonts.google.com/): to import Noto Serif Devanagari & Open Sans fonts which were used on all HTML pages. 
 - [Font Awesome](https://fontawesome.com/): to import iconds to add to the navigation bar & to the tour section for aesthetic & UX purposes. 
-- [ImageColorPicker](https://imagecolorpicker.com/): to generate the colour palette for the website. 
+- [ImageColorPicker](https://imagecolorpicker.com/): to generate the colour palette for the website.
+- [Coolors.co](https://coolors.co/241e20-8c6a4f-ffffff-3c5648-76a38f): to generate the colour palette for the README.  
 - [PosterMyWall](https://www.postermywall.com/index.php/posterbuilder/copy/f5550b1adaac0ea5e27966d9ef9b3af5#.ZEU7i3bMKUk): to generate the image for the New Album section. 
-- [Coolors.co](https://coolors.co/241e20-8c6a4f-ffffff-3c5648-76a38f): to generate the colour paletter for the README. 
 - [Favicon](https://favicon.io/): to generate the favicon images & to obtain links to add the favicon to all pages. 
 - [AmIResponsive](https://ui.dev/amiresponsive): to test the website's responsiveness on screens of different sizes. 
 
