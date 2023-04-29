@@ -5,7 +5,7 @@ This website is aimed at showcasing & promoting the music of the Irish solo-proj
 Targetted towards heavy metal music fans as well as new & existing fans of the project, the website provides a brief overview on the history of The Blessing Way, an introduction to their discography, information on the upcoming tour and where their music can be streamed.
 Users will find this useful to keep up to date with the latest album releases & tour dates. 
 
-![The Blessing Way website on different screen sizes](documentation/am-i-responsive.PNG)
+![The Blessing Way website on different screen sizes](documentation/am-i-responsive/am-i-responsive.PNG)
 
 ## User Experience
 ### Features
@@ -109,11 +109,11 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 - No errors were found when the website was run through the [W3C Validator](https://validator.w3.org/)
 
-![Validated HTML from W3C](documentation/html-validated.PNG)
+![Validated HTML from W3C](documentation/validation/html-validated.PNG)
 
 - No errors were found when the website was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-![Validated CSS from W3C](documentation/css-validated.PNG)
+![Validated CSS from W3C](documentation/validation/css-validated.PNG)
 
 ### Lighthouse
 
@@ -132,6 +132,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) was consulted for support with implementing Flexbox for responsive styling. 
 - HTML to enable smooth scrolling behaviour was obtained from [gomakethings.com](https://gomakethings.com/smooth-scrolling-links-with-only-css/)
 - Inspiration for the layout of the Biography section was taken from the Love Running website. 
+- Inspiration for the shadow on button hover was taken from [w3schools.com](https://www.w3schools.com/css/css3_buttons.asp).
 
 ### Content 
 - The Biograpy section as well as the album descriptions in the Discography section were written with the help of Ollie Gill. 
@@ -142,3 +143,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The Blessing Way logo image, album cover images & Favicon image were sourced from [The Blessing Way's Bandcamp page](https://theblessingway.bandcamp.com/community). 
 - The maps from the Tour section were sourced from [Google Maps](https://www.google.com/maps). 
 - The media players from the Discography page were sourced from [The Blessing Way's Bandcamp page](https://theblessingway.bandcamp.com/music). 
+
+### Acknowledgements
+- My mentor Derek McAuley for taking the time to look over my code and for providing me with feedback along the way. Derek provided me with the HTML code that automatically refreshes the page back to the index.html page after submitting the form. 
+- My partner Ollie Gill for supporting me with writing the content for the website. 
+- My friend Josip Potnar for providing me with tips & tricks including introducing me to Flexbox, Favicons & [ui.dev/amiresponsive](https://ui.dev/amiresponsive).
