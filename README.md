@@ -72,17 +72,16 @@ Users will find this useful to keep up to date with the latest album releases & 
 ### Design
 - Color
 
-![The Blessing Way Colour Palette]()
+![The Blessing Way Colour Palette](documentation/the-blessing-way-colour-palette.png)
 - The color palette was generated from the album cover of The Blessing Way’s newest album, Erik’s Lament. 
 
-- As the home page draws the user’s attention to the exciting release of the new album, it felt fitting for the website’s color scheme would match the album cover. 
+- As the home page draws the user’s attention to the exciting release of the new album, it felt fitting for the website’s color scheme to match the album cover. 
 
 - Typography
 
   - Noto Serif Devanagari was used for the main header elements throughout the website, with serif as a fallback, to match the classical feel of the latest album, Erik's Lament. 
   - To compliment the headings, Open Sans with sans-serif as a fallback was used for the rest of the text elements on the website. 
   - The fonts above were imported from Google Fonts. 
-- Imagery 
 
 ## Technologies used
 
@@ -116,6 +115,7 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 ![Validated CSS from W3C](documentation/css-validated.PNG)
 
+###Lighthouse
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
