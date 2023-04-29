@@ -21,7 +21,7 @@ Users will find this useful to keep up to date with the latest album releases & 
   - Biography section
     - The biography section contains an eye-catching text box that will give the user a brief introduction to The Blessing Way, complimented by a black, white & grey background image of a live concert to match the theme of heavy metal music. 
 
-    ![Desktop biography section]()![Mobile biography section](documentation/features-biography-mobile.PNG)
+    ![Desktop biography section](documentation/features-biography-desktop.jpg)![Mobile biography section](documentation/features-biography-mobile.PNG)
   
   - New album section 
     - The New Album section promotes the release of The Blessing Way’s newest album, Erik’s Lament. 
