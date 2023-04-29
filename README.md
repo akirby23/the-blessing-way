@@ -53,11 +53,11 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 ### Design
 - Color
-  - The color palette was generated from the album cover of The Blessing Way’s newest album, Erik’s Lament. 
 
 ![The Blessing Way Colour Palette]()
+- The color palette was generated from the album cover of The Blessing Way’s newest album, Erik’s Lament. 
 
-  - As the home page draws the user’s attention to the exciting release of the new album, it felt fitting for the website’s color scheme would match the album cover. 
+- As the home page draws the user’s attention to the exciting release of the new album, it felt fitting for the website’s color scheme would match the album cover. 
 
 - Typography
 
@@ -88,6 +88,17 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 ## Testing
 
+### Validator Testing
+
+- No errors were found when the website was run through the [W3C Validator](https://validator.w3.org/)
+
+![Validated HTML from W3C](documentation/html-validated.PNG)
+
+- No errors were found when the website was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![Validated CSS from W3C](documentation/css-validated.PNG)
+
+
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
  - In the GitHub repository, navigate to the Settings tab.
@@ -104,7 +115,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Inspiration for the layout of the Biography section was taken from the Love Running website. 
 
 ### Content 
-- The album descriptions in the Discography section were written with the help of Ollie Gill. 
+- The Biograpy section as well as the album descriptions in the Discography section were written with the help of Ollie Gill. 
 - The rest of the content was written by [Aoife](https://github.com/akirby23). 
 
 ### Media 
