@@ -73,9 +73,9 @@ Users will find this useful to keep up to date with the latest album releases & 
 - Color
 
 ![The Blessing Way Colour Palette](documentation/colour-palette/the-blessing-way-colour-palette.png)
-- The color palette was generated from the album cover of The Blessing Way’s newest album, Erik’s Lament. 
+   - The color palette was generated from the album cover of The Blessing Way’s newest album, Erik’s Lament. 
 
-- As the home page draws the user’s attention to the exciting release of the new album, it felt fitting for the website’s color scheme to match the album cover. 
+   - As the home page draws the user’s attention to the exciting release of the new album, it felt fitting for the website’s color scheme to match the album cover. 
 
 - Typography
 
@@ -116,6 +116,76 @@ Users will find this useful to keep up to date with the latest album releases & 
 ![Validated CSS from W3C](documentation/validation/css-validated.PNG)
 
 ### Lighthouse
+Lighthouse reports were run on all 4 HTML pages for both mobile & desktop.
+
+<!-- Dropdown menu for Lighthouse reports -->
+<!-- index.html Lighthouse reports -->
+<details>
+<summary>index.html - Desktop</summary>
+
+![Lighthouse desktop report for index.html](documentation/lighthouse/lighthouse-index.html-tested-desktop.PNG)
+
+- Overall, the index.html page performed well on desktop.
+</details>
+
+<details>
+<summary>index.html - Mobile</summary>
+
+![Lighthouse mobile report for index.html](documentation/lighthouse/lighthouse-index.html-tested-mobile.PNG)
+- Overall, the index.html page performed well on mobile.
+</details>
+
+<!-- discography.html Lighthouse reports -->
+<details>
+<summary>discography.html - Desktop</summary>
+
+![Lighthouse desktop report for discography.html](documentation/lighthouse/lighthouse-discography.html-tested-desktop.PNG)
+
+- Overall, the discography.html page performed well on desktop.
+</details>
+
+<details>
+<summary>discography.html - Mobile</summary>
+
+![Lighthouse mobile report for discography.html](documentation/lighthouse/lighthouse-discography.html-tested-mobile.PNG)
+
+- Overall, the discography.html page performed well on mobile.
+</details>
+
+<!-- form.html Lighthouse reports -->
+<details>
+<summary>form.html - Desktop</summary>
+
+![Lighthouse desktop report for form.html](documentation/lighthouse/lighthouse-form.html-tested-desktop.PNG)
+
+- Overall, the form.html page performed well on desktop.
+</details>
+
+<details>
+<summary>form.html - Mobile</summary>
+
+![Lighthouse mobile report for form.html](documentation/lighthouse/lighthouse-form.html-tested-mobile.PNG)
+
+- Overall, the form.html page performed well on desktop.
+</details>
+
+<!-- thank-you.html Lighthouse reports -->
+<details>
+<summary>thank-you.html - Desktop</summary>
+
+![Lighthouse desktop report for thank-you.html](documentation/lighthouse/lighthouse-thank-you.html-tested-desktop.PNG)
+- The accessibility score suffered a bit as a result of the auto-refresh HTML code. 
+- Otherwise, the thank-you.html page performed well on desktop. 
+</details>
+
+<details>
+<summary>thank-you.html - Mobile</summary>
+
+![Lighthouse mobile report for thank-you.html](documentation/lighthouse/lighthouse-thank-you.html-tested-mobile.PNG)
+
+- The accessibility score suffered a bit as a result of the auto-refresh HTML code. 
+- Otherwise, the thank-you.html page performed well on desktop.
+</details>
 
 
 ## Deployment
