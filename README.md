@@ -97,3 +97,18 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Credits 
 
+### Code 
+- [w3schools.com](https://www.w3schools.com/) & [stackoverflow.com](https://stackoverflow.com/) were consulted regularly for support with both HTML & CSS. 
+- [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) was consulted for support with implementing Flexbox for responsive styling. 
+- HTML to enable smooth scrolling behaviour was obtained from [gomakethings.com](https://gomakethings.com/smooth-scrolling-links-with-only-css/)
+- Inspiration for the layout of the Biography section was taken from the Love Running website. 
+
+### Content 
+- The album descriptions in the Discography section were written with the help of Ollie Gill. 
+- The rest of the content was written by [Aoife](https://github.com/akirby23). 
+
+### Media 
+- The background image from the Biography section was obtained from [RawPixel.com](https://www.rawpixel.com/image/2333597/premium-photo-image-concert-microphone-rock-band)
+- The Blessing Way logo image, album cover images & Favicon image were sourced from [The Blessing Way's Bandcamp page](https://theblessingway.bandcamp.com/community). 
+- The maps from the Tour section were sourced from [Google Maps](https://www.google.com/maps). 
+- The media players from the Discography page were sourced from [The Blessing Way's Bandcamp page](https://theblessingway.bandcamp.com/music). 
