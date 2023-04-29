@@ -197,8 +197,8 @@ Lighthouse reports were run on all 4 HTML pages for both mobile & desktop.
 
 | Issue | Notes | Status
 | ---| ---| ---|
-|Footer floating in the middle of form.html & thank-you.html pages|Fixed positioning was added to footer, which caused overlap on the bottom of the Tour & Discography sections. Padding was added to the bottom of both sections to resolve this.| Fixed| 
-|Border on anchor elements in the navigation bar when the link is active on Firefox|The border has been styled on the bottom only therefore this is not expected behaviour.| Not fixed - issue does not degrade UX
+|Footer floating in the middle of form.html & thank-you.html pages ![Footer bug](documentation/bugs/footer-bug.jpg)|Fixed positioning was added to footer, which caused overlap on the bottom of the Tour & Discography sections. Padding was added to the bottom of both sections to resolve this.| Fixed| 
+|Border on anchor elements in the navigation bar when the link is active on Firefox ![Firefox nav bar bug](documentation/bugs/firefox-nav-bar-bug.PNG)|The border has been styled on the bottom only therefore this is not expected behaviour.| Not fixed - issue does not degrade UX
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
