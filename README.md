@@ -115,7 +115,7 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 ![Validated CSS from W3C](documentation/validation/css-validated.PNG)
 
-### Lighthouse
+### Accessibility Testing
 Lighthouse reports were run on all 4 HTML pages for both mobile & desktop.
 
 <!-- Dropdown menu for Lighthouse reports -->
@@ -187,6 +187,18 @@ Lighthouse reports were run on all 4 HTML pages for both mobile & desktop.
 - Otherwise, the thank-you.html page performed well on desktop.
 </details>
 
+### Manual Testing
+- The website was testing on Google Chrome, Microsoft Edge, Firefox & Opera. 
+  - It performed as expected, with the exception of 1 bug which has been noted in the bugs section below. 
+- Links were tested to ensure that they open the correct page in a separate tab. 
+- Chrome DevTools & AmIResponsive were used to test the website's responsiveness on mobile phones, tablets, laptops & desktops. 
+
+### Bugs
+
+| Issue | Notes | Status
+| ---| ---| ---|
+|Footer floating in the middle of form.html & thank-you.html pages|Fixed positioning was added to footer, which caused overlap on the bottom of the Tour & Discography sections. Padding was added to the bottom of both sections to resolve this.| Fixed| 
+|Border on anchor elements in the navigation bar when the link is active on Firefox|The border has been styled on the bottom only therefore this is not expected behaviour.| Not fixed - issue does not degrade UX
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
