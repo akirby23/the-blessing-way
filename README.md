@@ -14,33 +14,32 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 ## User Experience
 ### Features
-- Implemented features
 
-  - Header
-    - The header contains The Blessing Way’s logo, which decorates each page nicely in line with the theme of the website while also allowing the user to easily navigate back to the home page by clicking on it. 
-    - It also contains a responsive navigation bar which features on all 4 pages, allowing the user to easily navigate between pages without the need to use the “back” button to go back to the previous page. 
-    - On larger screens, each of the navigation links contains a corresponding icon which contributes to the intuitive design while also making the header more aesthetically pleasing. 
+- Header
+  - The header contains The Blessing Way’s logo, which decorates each page nicely in line with the theme of the website while also allowing the user to easily navigate back to the home page by clicking on it. 
+  - It also contains a responsive navigation bar which features on all 4 pages, allowing the user to easily navigate between pages without the need to use the “back” button to go back to the previous page. 
+  - On larger screens, each of the navigation links contains a corresponding icon which contributes to the intuitive design while also making the header more aesthetically pleasing. 
 
     ![Desktop header](documentation/features/features-header-desktop.PNG) ![Mobile header](documentation/features/features-header-mobile.PNG)
 
-  - Biography section
+- Biography section
     - The biography section contains an eye-catching text box that will give the user a brief introduction to The Blessing Way, complimented by a black, white & grey background image of a live concert to match the theme of heavy metal music. 
 
     ![Desktop biography section](documentation/features/features-biography-desktop.jpg)![Mobile biography section](documentation/features/features-biography-mobile.PNG)
   
-  - New album section 
+- New album section 
     - The New Album section promotes the release of The Blessing Way’s newest album, Erik’s Lament. 
     - This section informs the user that the album is now available to stream on Bandcamp, Spotify and YouTube. 
     - The accompanying image features the album cover of Erik’s Lament on a mobile device to entice the user to stream the album. 
 ![Desktop new album section](documentation/features/features-new-album-desktop.PNG) ![Mobile new album section](documentation/features/features-new-album-mobile.PNG)
 
-  - Tour Section
+- Tour Section
     - This section advertises the upcoming Ireland Tour and contains a list of tour locations, the date & time of the events and the address of the venues. 
     - The locations of each of the events are pinpointed on a corresponding map iframe to allow the user to easily plan their trip and/or navigate to the venue. 
 
 ![Desktop tour section](documentation/features/features-tour-desktop.PNG) ![Mobile tour section](documentation/features/features-tour-mobile.PNG)
 
-  - Discography page 
+- Discography page 
     - The Discography pages provides the user with an overview of all of the albums that have been released by The Blessing Way to date. 
     - The album covers are displayed on the page accompanied by the title of the album, the release date and a description of the album. 
     - The iframes sourced from Bandcamp allow the user to listen to the album directly on the website, or navigate to the Bandcamp website to buy or share the album by clicking on the links within the media player. 
@@ -49,7 +48,7 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 ![Desktop discography section](documentation/features/features-discography-desktop.PNG) ![Mobile discography section](documentation/features/features-discography-mobile.PNG)
 
-  - Sign up page
+- Sign up page
     - The sign up page contains a form that will allow the user to sign up for The Blessing Way’s Newsletter. 
     - The user is just required to fill in their First Name, Last Name & Email Address, making it quick & easy for them to get signed up. 
     - Placeholder text has been placed within the input fields for a more intuitive design. 
@@ -57,13 +56,13 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 ![Desktop form page](documentation/features/features-form-desktop.PNG) ![Mobile form page](documentation/features/features-form-mobile.PNG)
 
-  - Thank you page
+- Thank you page
     - Upon submission of the form on the sign up page, the user is taken to the Thank You page which thanks the user for signing up to the newsletter, informs them that they have been successful in signing up & that they will be redirected back to the home page.
     - This page is set up to auto-refresh after 10 seconds and redirect the user back to the home page, which prevents the need for the user to press the “back” button to exit it.
 
     ![Desktop thank you page](documentation/features/features-thank-you-desktop.PNG) ![Mobile thank you page](documentation/features/features-thank-you-mobile.PNG)
 
-  - Footer
+- Footer
     - The footer contains Facebook, Bandcamp, Spotify & YouTube icons which are linked to The Blessing Way’s corresponding pages. Clicking on the icon will open the respective link in a new tab for better user experience.
     - Below the social media links is a disclaimer which lets the user know that the website has been created for educational purposes only.
    - The footer is fixed to the bottom of the page which allows the user to access the social media links any time.  
