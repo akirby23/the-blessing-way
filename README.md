@@ -5,6 +5,7 @@ This website is aimed at showcasing & promoting the music of the Irish solo-proj
 Targetted towards heavy metal music fans as well as new & existing fans of the project, the website provides a brief overview on the history of The Blessing Way, an introduction to their discography, information on the upcoming tour and where their music can be streamed.
 Users will find this useful to keep up to date with the latest album releases & tour dates. 
 
+![The Blessing Way website on different screen sizes](documentation/am-i-responsive.PNG)
 
 ## User Experience
 ### Features
