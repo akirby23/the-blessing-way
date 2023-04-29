@@ -1,4 +1,3 @@
-![The Blessing Way Logo](../images/the-blessing-way-logo.jpg) 
 # The Blessing Way
 
 ## Description
@@ -62,13 +61,30 @@ Users will find this useful to keep up to date with the latest album releases & 
 
 - Typography
 
-  - Noto Serif Devanagari was used for the main header elements throughout the website to match the classical feel of the latest album, Erik's Lament. 
-  - 
+  - Noto Serif Devanagari was used for the main header elements throughout the website, with serif as a fallback, to match the classical feel of the latest album, Erik's Lament. 
+  - To compliment the headings, Open Sans with sans-serif as a fallback was used for the rest of the text elements on the website. 
+  - The fonts above were imported from Google Fonts. 
 - Imagery 
 
 ## Technologies used
 
+### Languages
+- HTML was used to build the content of the website.
+- CSS was used to style the content of the website. 
+
 ### Frameworks, Libraries & Programs Used
+- [CodeAnywhere](https://app.codeanywhere.com/): to write the code. 
+- [Git](https://git-scm.com/): to commit & push the code to Github. 
+- [GitHub](https://github.com/): to store the code in its repository. 
+- [GitHub Pages](https://pages.github.com/): to deploy the website.
+- [Chrome DevTools]: for testing responsiveness on various screen sizes & for troubleshooting issues. 
+- [Google Fonts](https://fonts.google.com/): to import Noto Serif Devanagari & Open Sans fonts which were used on all HTML pages. 
+- [Font Awesome](https://fontawesome.com/): to import iconds to add to the navigation bar & to the tour section for aesthetic & UX purposes. 
+- [ImageColorPicker](https://imagecolorpicker.com/): to generate the colour palette for the website. 
+- [PosterMyWall](https://www.postermywall.com/index.php/posterbuilder/copy/f5550b1adaac0ea5e27966d9ef9b3af5#.ZEU7i3bMKUk): to generate the image for the New Album section. 
+- [Coolors.co](https://coolors.co/241e20-8c6a4f-ffffff-3c5648-76a38f): to generate the colour paletter for the README. 
+- [Favicon](https://favicon.io/): to generate the favicon images & to obtain links to add the favicon to all pages. 
+- [AmIResponsive](https://ui.dev/amiresponsive): to test the website's responsiveness on screens of different sizes. 
 
 ## Testing
 
