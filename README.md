@@ -1,4 +1,9 @@
 # The Blessing Way
+Developed by Aoife Kirby
+
+[Link to the deployed website](https://akirby23.github.io/the-blessing-way/index.html)
+
+[Link to the GitHub repository](https://github.com/akirby23/the-blessing-way)
 
 ## Description
 This website is aimed at showcasing & promoting the music of the Irish solo-project The Blessing Way. 
