@@ -77,7 +77,7 @@ Users will find this useful to keep up to date with the latest album releases & 
 - [Git](https://git-scm.com/): to commit & push the code to Github. 
 - [GitHub](https://github.com/): to store the code in its repository. 
 - [GitHub Pages](https://pages.github.com/): to deploy the website.
-- [Chrome DevTools]: for testing responsiveness on various screen sizes & for troubleshooting issues. 
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/): for testing responsiveness on various screen sizes & for troubleshooting issues. 
 - [Google Fonts](https://fonts.google.com/): to import Noto Serif Devanagari & Open Sans fonts which were used on all HTML pages. 
 - [Font Awesome](https://fontawesome.com/): to import iconds to add to the navigation bar & to the tour section for aesthetic & UX purposes. 
 - [ImageColorPicker](https://imagecolorpicker.com/): to generate the colour palette for the website. 
@@ -89,6 +89,11 @@ Users will find this useful to keep up to date with the latest album releases & 
 ## Testing
 
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+ - In the GitHub repository, navigate to the Settings tab.
+ - On the left hand side of the page, navigate to Pages. 
+ - From the source section drop-down menu, select the Main Branch.
+ - Once the main branch has been selected & saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 ## Credits 
 
