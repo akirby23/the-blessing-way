@@ -6,8 +6,10 @@ Developed by Aoife Kirby
 [Link to the GitHub repository](https://github.com/akirby23/the-blessing-way)
 
 ## Description
-This website is aimed at showcasing & promoting the music of the Irish solo-project The Blessing Way. 
+This website is aimed at showcasing & promoting the music of the Irish solo-project, The Blessing Way. 
+<br>
 Targetted towards heavy metal music fans as well as new & existing fans of the project, the website provides a brief overview on the history of The Blessing Way, an introduction to their discography, information on the upcoming tour and where their music can be streamed.
+<br>
 Users will find this useful to keep up to date with the latest album releases & tour dates. 
 
 ![The Blessing Way website on different screen sizes](documentation/am-i-responsive/am-i-responsive.PNG)
@@ -28,7 +30,7 @@ Users will find this useful to keep up to date with the latest album releases & 
     ![Desktop biography section](documentation/features/features-biography-desktop.jpg)![Mobile biography section](documentation/features/features-biography-mobile.PNG)
   
 - New album section 
-    - The New Album section promotes the release of The Blessing Way’s newest album, Erik’s Lament. 
+    - The new album section promotes the release of The Blessing Way’s newest album, Erik’s Lament. 
     - This section informs the user that the album is now available to stream on Bandcamp, Spotify and YouTube. 
     - The accompanying image features the album cover of Erik’s Lament on a mobile device to entice the user to stream the album. 
 ![Desktop new album section](documentation/features/features-new-album-desktop.PNG) ![Mobile new album section](documentation/features/features-new-album-mobile.PNG)
@@ -42,7 +44,7 @@ Users will find this useful to keep up to date with the latest album releases & 
 - Discography page 
     - The Discography pages provides the user with an overview of all of the albums that have been released by The Blessing Way to date. 
     - The album covers are displayed on the page accompanied by the title of the album, the release date and a description of the album. 
-    - The iframes sourced from Bandcamp allow the user to listen to the album directly on the website, or navigate to the Bandcamp website to buy or share the album by clicking on the links within the media player. 
+    - The iframes sourced from Bandcamp allow the user to listen to the album directly on the website, or navigate to the Bandcamp website to buy or share the album by clicking on the links within the media player, which opens in a new tab.
     - For a better user experience, the iframes will not autoplay. 
     - In the interest of maintaining responsiveness on smaller screens, the iframes are not visible on screens 450px wide and below. 
 
